@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-main-container {
+  background-color: #ffd569;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+  /* width: 60%; */
+}
+
+@media screen and (min-width: 768px) {
+  .bg-main-container {
+    width: 80%;
+  }
+}
+
+.card-container {
+  background-color: #ffff;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 576px) {
+}
+
+.text-container {
+  margin-bottom: 60px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.span-sty {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffd569;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+.img-sty {
+  width: 200px;
+  height: 200px;
+}
+
+.btn-sty {
+  height: 30px;
+  width: 120px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffff;
+  background-color: #007bff;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-container {
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+  }
+  .text-container {
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 20px;
+  }
+
+  .span-sty {
+    font-size: 20px;
+  }
+  .img-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img-sty {
+    width: 100px;
+    height: 100px;
+  }
+  .banana-container {
+    margin-top: 30px;
+  }
+
+  .btn-sty {
+    height: 20px;
+    width: 80px;
+    font-size: 14px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+}
